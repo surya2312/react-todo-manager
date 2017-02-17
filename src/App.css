@@ -1,0 +1,9 @@
+.container-div{
+    background-color: #efefef;
+    padding: 2%;
+}
+
+.center-div{
+    margin: auto;
+    width: 50%;
+}

@@ -4,6 +4,10 @@
   "description": "Our simple set up for React on Heroku",
   "main": "index.js",
   "repository": "",
+  "engines": {
+        "node": "0.8.12",
+        "npm":  "1.1.49"
+  },
   "scripts": {
     "start": "node ./node_modules/webpack-dev-server/bin/webpack-dev-server.js",
     "prod": "NODE_ENV=production node server.js",

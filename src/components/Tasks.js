@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import { ListGroup, Badge, Container, Row, Col } from 'reactstrap';
 import TaskItem from './TaskItem';
-import '../App.css';
+import './App.css';
 
 class Tasks extends Component {
   deleteTask(id){

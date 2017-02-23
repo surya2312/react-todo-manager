@@ -9,9 +9,6 @@ class AddTask extends Component {
       newTask:{}
     }
   }
-  static defaultProps ={
-    statusOptions : ['incomplete', 'complete', 'In progress']
-  }
 
   handleSubmit(e){
     
